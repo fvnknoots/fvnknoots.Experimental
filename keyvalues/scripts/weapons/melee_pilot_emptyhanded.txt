@@ -20,11 +20,11 @@ WeaponData
 	"playermodel" 									"models/weapons/empty_handed/w_empty_handed_human.mdl"
 
 	// Melee
-	"melee_can_hit_humansized"						"1"
+	"melee_can_hit_humansized"						"0"  //Changed from 1 to 0 hoping to remove lock
 	"melee_can_hit_titans"							"0"
 	"melee_raise_recovery_animtime_normal"			"0.75"
 	"melee_raise_recovery_animtime_quick"			"0.4"
-	"melee_range"									"60"
+	"melee_range"									"1"  //Changed from 60 to 1 again to discourage and make fun of melee
 	"melee_rumble_on_hit"							"pilot_melee_hit"
 	"melee_rumble_on_hit_partial"					"pilot_melee_hit_partial"
 	"melee_freezelook_on_hit"						"0.25"
@@ -42,7 +42,7 @@ WeaponData
 	{
 		"melee_lunge_target_range"						"110"
 		"melee_lunge_target_angle"						"30"
-		"melee_damage"									"70" // CHANGE/NERF: 100 -> 70
+		"melee_damage"									"0" //CHANGE/NERF: 100 -> 0
 		"melee_damage_heavyarmor"						"0"
 		"melee_attack_animtime"							"0"
 		"melee_lunge_time"								"0.3"

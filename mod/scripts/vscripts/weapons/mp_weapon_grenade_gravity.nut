@@ -3,13 +3,13 @@ global function MpWeaponGrenadeGravity_Init
 
 const float MAX_WAIT_TIME = 6.0
 const float POP_DELAY = 0.8
-const float PULL_DELAY = 1.33 // CHANGE/NERF: 2.0 -> 1.33 (-33% pull duration)
+const float PULL_DELAY = 1.00 // CHANGE/NERF: 2.0 -> 1.00 (-50% pull duration) coz fuck gravs
 const float PUSH_DELAY = 0.2
 const float POP_HEIGHT = 60
 const float PULL_RANGE = 150.0
 const float PULL_STRENGTH_MAX = 300.0
 const float PULL_VERT_VEL = 220
-const float PUSH_STRENGTH_MAX = 125.0
+const float PUSH_STRENGTH_MAX = 300.0 // CHANGE/BUFF 125 TO 300 for funny boosting
 const float EXPLOSION_DELAY = 0.1
 const float FX_END_CAP_TIME = 1.5
 //const float PULL_VERTICAL_KNOCKUP_MAX = 75.0
