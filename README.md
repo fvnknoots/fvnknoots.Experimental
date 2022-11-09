@@ -24,9 +24,9 @@ Change summary
 
 ### CAR
 
-  * Near damage: 25 -> 15 (4 -> 7 BTK)
-  * Far damage: 13 -> 10 (7 -> 10 BTK)
-  * Very far damage: 10 -> 9 (10 -> 12 BTK)
+  * Near damage: 25 -> 1 (4 -> 100 BTK)
+  * Far damage: 13 -> 1 (7 -> 100 BTK)
+  * Very far damage: 10 -> 1 (10 -> 100 BTK)
 
 ### Alternator
 
@@ -74,6 +74,11 @@ Change summary
   * Far damage: 13 -> 12 (7 -> 9  BTK)
   * Very far damage: 9  -> 8 (12 -> 13 BTK)
 
+### Kraber
+
+  * Damage: 350 -> 800
+  * Ricochets: 2 -> 200
+
 ### P2016
 
   * Near damage: 30 -> 20 (4 -> 5 BTK)
@@ -82,7 +87,9 @@ Change summary
 
 ### Melee
 
-  * Damage 100 -> 70
+  * No lock-on
+  * Range: 60 -> 1 (1 -> 0 meters)
+  * Damage: 100 -> 0
 
 ### A-Wall
 
@@ -90,7 +97,8 @@ Change summary
 
 ### Gravity star
 
-  * Pull time reduced by 33% (2.0 -> 1.33)
+  * Pull time reduced by 50% (2.0 -> 1.0 seconds)
+  * Push strength: 125 -> 300
 
 ### Electric smoke
 

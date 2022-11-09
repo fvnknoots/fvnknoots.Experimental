@@ -1,12 +1,14 @@
 global array< array<string> > EXPERIMENTAL_CHANGELIST = [
     [
         "Summary",
-        "SMGs: around -50% damage",
+        "CAR: 1 damage",
+        "Other SMGs: around -50% damage",
         "R201/R101/Flatline/Spitfire/EVA-8/RE-45/P2016: around -25% damage",
+        "Kraber: +200% damage, +200 ricochets",
         "A-Wall: -50% shield health"
-        "Gravity star: -33% pull time",
+        "Gravity star: -50% pull time, +200% push strength",
         "Arc grenade and electric smoke: around +25% radius",
-        "Melee: 70 damage"
+        "Melee: no"
     ],
     [
         "Goals",
@@ -16,9 +18,9 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
     ],
     [
         "CAR",
-        "Near damage: 25 -> 15 (4 -> 7 bullets)",
-        "Far damage: 13 -> 10 (7 -> 10 bullets)",
-        "Very far damage: 10 -> 9 (10 -> 12 bullets)"
+        "Near damage: 25 -> 1 (4 -> 100 bullets)",
+        "Far damage: 13 -> 1 (7 -> 100 bullets)",
+        "Very far damage: 10 -> 1 (10 -> 100 bullets)"
     ],
     [
         "Alternator",
@@ -68,6 +70,11 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
         "Far damage: 10 (vanilla)"
     ],
     [
+        "Kraber",
+        "Damage: 350 -> 800",
+        "Ricochets: 2 -> 200"
+    ],
+    [
         "P2016",
         "Near damage: 30 -> 20 (4 -> 5 bullets)"
         "Far damage: 20 -> 17 (5 -> 6 bullets)"
@@ -87,7 +94,8 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
     ],
     [
         "Grav",
-        "Pull time: 2.0s -> 1.33s (-33%)"
+        "Pull time: 2.0 -> 1.0 seconds",
+        "Push strength: 125 -> 300"
     ],
     [
         "Arc",
@@ -101,6 +109,8 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
     ],
     [
         "Melee",
-        "Damage: 100 -> 70"
+        "Lock-on: no",
+        "Range: 60 -> 1 (1 -> 0 meters)",
+        "Damage: 100 -> 0"
     ]
 ]

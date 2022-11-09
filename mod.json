@@ -1,0 +1,12 @@
+{
+    "Name": "fvnknoots.Experimental",
+    "Description": "Experimental balance mod",
+    "Version": "0.1.0",
+    "LoadPriority": 1,
+    "Scripts": [
+        {
+            "Path": "experimental.nut",
+            "RunOn": "SERVER"
+        }
+    ]
+}
