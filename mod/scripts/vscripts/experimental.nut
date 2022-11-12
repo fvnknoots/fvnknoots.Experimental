@@ -95,7 +95,9 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
     [
         "Grav",
         "Pull time: 2.0 -> 1.0 seconds",
-        "Push strength: 125 -> 300"
+        "Push strength: 125 -> 600"
+        "Pull range: 125 -> 10"
+        "Pull strength: 300 -> 10"
     ],
     [
         "Arc",
