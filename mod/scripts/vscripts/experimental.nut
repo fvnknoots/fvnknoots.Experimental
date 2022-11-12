@@ -6,7 +6,7 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
         "R201/R101/Flatline/Spitfire/EVA-8/RE-45/P2016: around -25% damage",
         "Kraber: +200% damage, +200 ricochets",
         "A-Wall: -50% shield health"
-        "Gravity star: -50% pull time, +200% push strength",
+        "Gravity star: -50% pull time, +600% push strength, -90% pull strength/range",
         "Arc grenade and electric smoke: around +25% radius",
         "Melee: no"
     ],
@@ -95,8 +95,8 @@ global array< array<string> > EXPERIMENTAL_CHANGELIST = [
     [
         "Grav",
         "Pull time: 2.0 -> 1.0 seconds",
-        "Push strength: 125 -> 600"
-        "Pull range: 125 -> 10"
+        "Push strength: 125 -> 600",
+        "Pull range: 125 -> 10",
         "Pull strength: 300 -> 10"
     ],
     [
