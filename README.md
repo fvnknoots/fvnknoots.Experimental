@@ -98,7 +98,9 @@ Change summary
 ### Gravity star
 
   * Pull time reduced by 50% (2.0 -> 1.0 seconds)
-  * Push strength: 125 -> 300
+  * Push strength: 125 -> 600
+  * Pull range: 125 -> 10
+  * Pull strength: 300 -> 10
 
 ### Electric smoke
 
